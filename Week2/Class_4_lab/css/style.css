@@ -81,18 +81,24 @@ footer {
 
 
 header {
-  background: blue;
+  background: #2D3D42;
+  padding: 30px;
 
 }
 
 header h1{
   color: white;
   display: inline;
+  padding-top: 40px;
+  position: relative;
+  left:50px;
+  top:20px;
 }
 
 header li{
   color: yellow;
   display: inline-block;
+  padding: 15px;
 
 }
 .navigation{
@@ -101,25 +107,56 @@ header li{
 
 .leftcolum{
   float: left;
-  width:600px;
+  width:700px;
+  display: inline-block;
 
 }
 .rightcolum{
-  float: right;
+  /*float: right;*/
   width:180px;
+  display: inline-block;
+  margin-left:60px;
+  padding-top: 50px
 }
 
 
 article a{
   float: right;
 
+
 }
-section{ 
-  border-bottom: 1px solid black;
-}
+
 article a{
   float: right;
+  margin-bottom: 25px;
 }
  
-h3{
-  float: center;}
+article h4{
+  margin-bottom: 40px;
+  border-top: 1px solid black;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+
+article p{
+  margin-bottom: 40px;
+}
+
+article h5{
+  padding-left: 450px;
+  background-color: yellow;
+  height: 70px;
+border-top: 200px;
+padding-top: 25px;
+padding-bottom: 70px;
+}
+
+article ul{
+  padding-left: 460px;
+  padding-top: 25px;
+  background-color: black;
+  color: yellow;
+  margin-bottom: 350px;
+  padding-bottom: 350px;
+}
+

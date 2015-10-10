@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript" src="Week3.js"></script>
+</head>
+<body>
+<p>Enter a Temperature to Convert in the field below and select the starting scale.</p>
+<input type="text" name="txtTemp" id="txtTemp" placeholder="Enter a Temperature" />
+<br />
+<br />
+<input type="radio" id="radFahrenheit" name="radTemp" checked/>Fahrenheit to Celcius
+<br/>
+<br/>
+<input type="radio" id="radCelcius" name="radTemp"/>Celcius to Fahrenheit
+<br/>
+<br/>
+<br/>
+<br/>
+<button onclick="ConvertTemp();">Convert</button>
+<br/>
+<br/>
+
+<div id="divResults"></div>
+<title>Temperature Converter</title>
+</body>
+</html>
+ 
+Im probably way off on my code but ehh I'm just now learning so with time will come experience and other good things:
+ 
+function ConvertTemp(){
+var radFahrenheit = document.getElementById('radFahrenheit');
+var radCelcius = document.getElementById('radCelcius');
+var txtTemp = document.getElementById('txtTemp');
+var divResults = document.getElementById('divResults');
+
+if(radF.checked){
+{
+radFahrenheit = (radCelcius * (9/5)) + 32;
+divResults = radFahrenheit;
+FahrenheitToCelcius();
+}else if(radC.checked){
+radCelcius = (radFahrenheit -32) * (5 / 9);
+divResults = radCelcius;
+CelciustoFahrenheit();
+}
+}
