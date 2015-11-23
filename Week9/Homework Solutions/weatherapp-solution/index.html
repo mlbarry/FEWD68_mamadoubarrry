@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>Weather app</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/app.js"></script>
+	<style>
+		#weather-form input[name=city] {
+
+		}
+	</style>
+
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body>
+	<h1>The Weather of the World</h1>
+	<weatherdata>
+		<location>
+<name>New York </name>
+<type/>
+<country>US</country>
+<timezone/>
+<location altitude="0" latitude="39.886452" longitude="-83.44825" geobase="geonames" geobaseid="0"/>
+</location>
+	<form method="" action="" id="weather-form">
+		<input type="text" name="city" id="city-field" placeholder="Enter city">
+		<input type="submit" value="Get weather data">
+	</form>
+	<form method="" action="" id="weather-form">
+		<input type="text" name="city" id="city-field" placeholder="New York">
+		<input type="submit" value="Get weather data">
+	</form>
+
+	<div id="forecast">
+	</div>
+	</weatherdata>
+</body>
+</html>
