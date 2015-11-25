@@ -79,6 +79,13 @@ am using in the program //
 	margin-top: 70px;
 }
 
+/*//htis is for all the hidden elements from the html*/
+
+.hidden p{
+	display: none;
+}
+/*//closure of hidden elements*/
+
 .main-content p
 {
 	margin-left: 6%;
