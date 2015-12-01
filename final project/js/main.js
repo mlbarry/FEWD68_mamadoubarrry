@@ -208,13 +208,33 @@ $('#button-Bthree').click(function(){
      $('#button-Bthree').css('background-color', 'grey');
     clickOne = 0;
   }
-   
+  
 });
+
+// this is a counter for the buttons to
+// active the box which explain how each student behave in each class//
+function color-calc({
+  $('#document').load(function)
+  if background-color=yellow,
+    var1 = 1;
+  if background-color= green,
+    var2 = 2;
+  if background-color= red,
+    var3 = 3;
+  if background-color= grey,
+    var4 = 0;
+})
+var total = var1 + var2 + var3 + var4;
+if (total == 1-3){
+  $(text-optional).css("display","block");
+   "Never give up You'll get there!"
+
+}
 
 // Click on main photo, show information
 
-$('#img-id').click(function(){
-  $('#text-id').toggleClass('show-text'); //create class in css with property:value = display: block;
+$('#img/IMG_0416.JPG').click(function(){
+  $('#userHover').toggleClass('show-text'); //create class in css with property:value = display: block;
 });
 
 // Show information based on student's participation
